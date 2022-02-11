@@ -2,10 +2,10 @@
 @import "rouge-github";
 
 body {
-  background-color: #fff;
+  background-color: rgb(230, 230, 230);
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  font: 18px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#5e5e5e;
   font-weight:400;
 }
 
@@ -35,12 +35,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#267CB9;
+  color:hsl(139, 7%, 55%);
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#069;
+  color:hsl(139, 7%, 47%);
   font-weight: bold;
 }
 
