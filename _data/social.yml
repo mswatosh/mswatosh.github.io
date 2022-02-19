@@ -6,12 +6,12 @@ email:
 
 github:
   id: 'mswatosh'
-  href: 'https://github.com/mswatosh'
+  href: 'https://github.com/'
   title: 'Github'
   fa-icon: 'fa-github-square'
 
 twitter:
   id: 'markswatosh'
-  href: 'https://twitter.com/markswatosh'
+  href: 'https://twitter.com/'
   title: 'Twitter'
   fa-icon: 'fa-twitter-square'
