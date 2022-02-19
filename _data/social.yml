@@ -1,0 +1,17 @@
+email:
+  id: 'mark.swatosh@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+github:
+  id: 'mswatosh'
+  href: 'https://github.com/mswatosh'
+  title: 'Github'
+  fa-icon: 'fa-github-square'
+
+twitter:
+  id: 'markswatosh'
+  href: 'https://twitter.com/markswatosh'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'
