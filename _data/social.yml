@@ -15,3 +15,9 @@ twitter:
   href: 'https://twitter.com/'
   title: 'Twitter'
   fa-icon: 'fa-twitter-square'
+
+linkedin:
+  id: 'mark-swatosh'
+  href: 'https://www.linkedin.com/in/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin-square'

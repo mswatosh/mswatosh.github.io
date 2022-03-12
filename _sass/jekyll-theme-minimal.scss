@@ -4,7 +4,7 @@
 body {
   background-color: rgb(230, 230, 230);
   padding:50px;
-  font: 18px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 24px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#5e5e5e;
   font-weight:400;
 }
@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:38px;
 }
 
 h2 {
@@ -102,6 +102,10 @@ th {
 
 img {
   max-width:100%;
+}
+
+#headshot {
+  border-radius: 5%;
 }
 
 kbd {
@@ -193,6 +197,8 @@ section {
 
 small {
   font-size:11px;
+  line-height:1.5em;
+  display: block;
 }
 
 hr {
@@ -209,6 +215,16 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
+div#social {
+  display: flex; 
+  justify-content: space-between;
+}
+
+header > * {
+  margin: 0 0 1em;
+}
+
 
 @media print, screen and (max-width: 960px) {
 
