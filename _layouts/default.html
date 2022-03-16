@@ -39,9 +39,11 @@
         {% if site.posts %}
           <div id="posts">
           {% for post in site.posts %}
-            
-              <a class="post" href="{{ post.url }}">{{ post.title }}</a>
-            
+            {% if page.url == post.url %}
+              <li class="active"><a href="{{post.url}}" class="active">{{post.title}}</a></li>
+            {% else %}
+              <a href="{{post.url}}">{{post.title}}</a>
+            {% endif %}            
           {% endfor %}
           </div>
         {% endif %}
